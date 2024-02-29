@@ -1,0 +1,20 @@
+npx i tailwindcss- creates a config tailwind file that place u can write your own class
+npm init -y 
+at package json : replace the test place or below with 
+  -  "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+   - npm i -D prettier-plugin-tailwindcss -devdependecy
+"prettier" : "npx prettier --write **/*.html **/*.jsx  " - this line is added bcoz tailwind wants css to be 
+written in certain order in order to evaluated buut writing this we do not have worry about that 
+
+for **/*.html the 2 astretics that are extra indicates that they only check html components only
+
+- then run { npm run tailwind }thus building cc/style.css folder and file 
+
+if you come to the file or change the package json name then you have "npm run tailwind" - DON'T FORGET
+
+
+lastly run npm run prettier at bash terminal and gives u error if u have and rearrange css styles
+EVERYTIME YOU START A TAILWIND WORK RUN {npm run tailwind}
+
+ text-papayawhip-dark 
+ text-['#ffefd5'] - applying once if the color is not tailwind or size text-['23px]
